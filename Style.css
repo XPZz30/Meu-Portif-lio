@@ -1,0 +1,54 @@
+body {
+    background-color: #EAF2EF;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.profile-image {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.custom-navbar {
+    background: linear-gradient(90deg, rgba(0, 129, 175, 1) 0%, rgba(0, 80, 107, 1) 50%, rgba(1, 125, 169, 1) 100%, rgba(0, 0, 0, 1) 100%);
+
+    padding: 2rem 1rem;
+}
+
+
+
+.description {
+    color: #DFDFDF;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+.name-cargo {
+    font-weight: lighter;
+    font-size: 32px;
+    color: #DFDFDF;
+
+}
+
+.card-container {
+    margin-top: 2rem;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cards-container {
+    margin-top: 3em;
+}
+
+.bloco-colorido {
+    background: linear-gradient(to right, #0081AF 0%, #181818 50%, #0081AF 100%);
+    padding: 2rem 1rem;
+}
+
