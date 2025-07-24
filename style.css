@@ -12,6 +12,16 @@ body {
     margin-right: 2rem;
 }
 
+@media screen and (max-width: 990px) {
+    .profile-image {
+        width: 256px;
+        height: 256px;
+        object-fit: cover;
+        margin-right: 0;
+    }
+
+}
+
 .custom-navbar {
     background: linear-gradient(90deg, rgba(0, 129, 175, 1) 0%, rgba(0, 80, 107, 1) 50%, rgba(1, 125, 169, 1) 100%, rgba(0, 0, 0, 1) 100%);
 
@@ -51,4 +61,3 @@ body {
     background: linear-gradient(to right, #0081AF 0%, #181818 50%, #0081AF 100%);
     padding: 2rem 1rem;
 }
-
